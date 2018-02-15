@@ -1,5 +1,7 @@
 html {
   background: url(../images/IQC_outside.jpg) no-repeat center center fixed;
+<<<<<<< HEAD
+  background: url(images/IQC_outside.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -29,7 +31,6 @@ header{
  header p{
      opacity: 0;
     animation-name: Fadout;
-    animation-duration: 1s;
 
 
 }
