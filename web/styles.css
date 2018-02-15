@@ -2,6 +2,10 @@ html {
 
 
   background: url(images/ice_image.png) no-repeat center center fixed;
+=======
+  background: url(images/ice_image.png) no-repeat center center fixed;
+
+>>>>>>> 1347e4b444e01a6f86e7487e3ae0ed189a4c30b9
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
