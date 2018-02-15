@@ -1,11 +1,7 @@
 html {
 
-
-  background: url(images/ice_image.png) no-repeat center center fixed;
-=======
   background: url(images/ice_image.png) no-repeat center center fixed;
 
->>>>>>> 1347e4b444e01a6f86e7487e3ae0ed189a4c30b9
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,13 +31,13 @@ header{
  header p{
      opacity: 0;
     animation-name: Fadout;
-    animation-duration: 0.5s;
+    animation-duration: 0.25s;
 
 
 }
 header:hover p{
     animation-name: Fadin;
-    animation-duration: 1s;
+    animation-duration: 2s;
     opacity:1;
 }
 
