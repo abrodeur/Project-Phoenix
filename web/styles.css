@@ -1,7 +1,7 @@
 html {
-  background: url(../images/IQC_outside.jpg) no-repeat center center fixed;
-<<<<<<< HEAD
-  background: url(images/IQC_outside.jpg) no-repeat center center fixed;
+
+
+  background: url(images/ice_image.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +16,7 @@ body{
   min-height: 200px;
 }
 body *{
-  margin: 0px;
+  margin: 0;
 
 }
 header{
@@ -31,6 +31,7 @@ header{
  header p{
      opacity: 0;
     animation-name: Fadout;
+    animation-duration: 0.5s;
 
 
 }
@@ -56,12 +57,9 @@ p {
   bottom: 5vh;
   right: 1vw;
   position: fixed;
-  margin-top: 1vh ;
-  margin-bottom: 1vh ;
-  margin-right: 1vw ;
-  margin-left: 1vw ;
-
+  margin: 1vh ;
 }
+
 .quote{
   font-size: 4vh;
   padding-right: 4vh;
@@ -93,7 +91,7 @@ p {
 }
 
 .img-description{
-  bottom: 0px;
+  bottom: 0;
   position: fixed;
   margin-top: 1vh ;
   margin-bottom: 1vh ;
@@ -103,9 +101,8 @@ p {
   left: 0px;
   background-color: rgba(0, 0, 0, 0.26);
   padding: 1vw;
-  border-width: 1vw;
-  border: 2px solid #000000;
-  border-radius: 1.5vw;
+    border: 2px solid #000000;
+    border-radius: 1.5vw;
 }
 .img_title {
   font-size: 1.5vh;
