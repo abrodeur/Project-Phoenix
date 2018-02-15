@@ -1,0 +1,158 @@
+html {
+  background: url(../images/IQC_outside.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* IE */
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/main_bg_2.jpg', sizingMethod='scale')";
+
+  width: 100%;
+}
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  min-height: 200px;
+}
+body *{
+  margin: 0px;
+
+}
+header{
+  color: white;
+  -webkit-text-stroke: 0.2vh black;
+  font-size: 10vh;
+  width: 50%;
+  margin:1vh;
+
+}
+
+ header p{
+     opacity: 0;
+    animation-name: Fadout;
+    animation-duration: 1s;
+
+
+}
+header:hover p{
+    animation-name: Fadin;
+    animation-duration: 1s;
+    opacity:1;
+}
+
+p {
+  color: white;
+}
+
+.right{
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.quote_block{
+  bottom: 5vh;
+  right: 1vw;
+  position: fixed;
+  margin-top: 1vh ;
+  margin-bottom: 1vh ;
+  margin-right: 1vw ;
+  margin-left: 1vw ;
+
+}
+.quote{
+  font-size: 4vh;
+  padding-right: 4vh;
+  padding-bottom: 2vh;
+  width: 50%;
+  -webkit-text-stroke:0.1vh black;
+  font-weight: bold;
+
+}
+
+.quote:before {
+  content: open-quote;
+}
+
+.quote:after {
+  content: close-quote;
+}
+
+.quote_author{
+  text-align: right;
+  padding-right: 5%;
+  font-size: 3vh;
+  bottom: 2vh;
+  -webkit-text-stroke:0.05vh black;
+}
+
+.quote_author:before{
+  content: '-';
+}
+
+.img-description{
+  bottom: 0px;
+  position: fixed;
+  margin-top: 1vh ;
+  margin-bottom: 1vh ;
+  margin-right: 1vw ;
+  margin-left: 1vw ;
+  text-align: center;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.26);
+  padding: 1vw;
+  border-width: 1vw;
+  border: 2px solid #000000;
+  border-radius: 1.5vw;
+}
+.img_title {
+  font-size: 1.5vh;
+  text-align: center;
+}
+
+
+.img_details{
+  font-size: 1vh;
+  text-align: center;
+}
+
+
+@keyframes Fadin {
+    0%{
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.9;
+    }
+    100%{
+          opacity: 1;
+      }
+}
+
+@keyframes Fadout {
+    0%{
+        opacity: 1;
+    }
+
+    25%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
