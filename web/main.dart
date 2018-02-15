@@ -5,7 +5,7 @@ import 'dart:html';
 
 void main() {
 //  bootstrap(AppComponent);
- window.console.info("test");
+ window.console.info("test2");
 }
 
 void afterload(){
